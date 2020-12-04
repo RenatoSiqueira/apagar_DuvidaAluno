@@ -10,5 +10,3 @@ class MyApp extends App {
     }
 }
 export default MyApp
-
-//05 - Adicionando o Tailwind, i stoped 02:44 minutes
