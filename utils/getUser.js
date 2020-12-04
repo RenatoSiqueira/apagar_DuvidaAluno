@@ -9,7 +9,7 @@ const getUser = async(username) => {
     const resRepos = await fetch(`https://api.github.com/users/${username}/repos?sort=updated`)
     const originalRepos = await resRepos.json()
 
-    const dontShowRepos = ['RenatoDomingues/LojaAutoPecas', 'RenatoDomingues/Meu-primeiro-projeto']
+    const dontShowRepos = ['RenatoDomingues/renatodomingues.dev', 'RenatoDomingues/Meu-primeiro-projeto']
 
     const isNotFork = repo => !repo.fork
     const dontShowFilter =repo => dontShowRepos.indexOf(repo.full_name) === -1
