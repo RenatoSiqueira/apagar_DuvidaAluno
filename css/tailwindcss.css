@@ -1,4 +1,11 @@
 
 @import "tailwindcss/base";
 @import "tailwindcss/components";
-@import "tailwindcss/utilities"
+@import "tailwindcss/utilities";
+
+body{
+    background: #FFE7E7; 
+}
+.bg-network{
+    background: url(/images/backgroundPhoto3.png) top right no-repeat;
+}
