@@ -9,6 +9,7 @@ import { GrLanguage } from 'react-icons/gr'
 import PageHead from '../components/pageHead'
 import Hero from '../components/Hero/index'
 
+
 const Index = ({ repos, user }) => {
     return (
         <div className='container mx-auto bg-network'>

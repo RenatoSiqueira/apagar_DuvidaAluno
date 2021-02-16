@@ -4,6 +4,7 @@ import { HiOutlineMailOpen } from 'react-icons/hi'
 //import { IconName } from 'react-icons/io' 
 //import { IoLogoVercel } from 'react-icons/io'
 
+
 const Hero = () => {
     return (
             <div className='md:grid md:grid-cols-2 md:pt-16 leading-none'>

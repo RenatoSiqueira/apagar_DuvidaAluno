@@ -1,6 +1,7 @@
 
 import React from 'react'
 
+
 const getUser = async(username) => {
 
     const resUser = await fetch('https://api.github.com/users/renatodomingues' +username)

@@ -6,6 +6,7 @@ const purgecss = [
         defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
     }
 ];
+
 module.exports = {
     plugins: [
         "postcss-import",

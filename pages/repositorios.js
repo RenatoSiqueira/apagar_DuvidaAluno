@@ -3,6 +3,7 @@
 import React from 'react'
 import getUser from '../utils/getUser'
 
+
 const Index = ({ repos, user }) => {
     return (
         <div className='container mx-auto'>
