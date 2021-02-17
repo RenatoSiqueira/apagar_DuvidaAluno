@@ -6,5 +6,5 @@ body {
   background: #ffe7e7;
 }
 .bg-network {
-  background: url("/images/backgroundPhoto3.png") top right no-repeat;
+  background: url(/images/backgroundPhoto3.png) top right no-repeat;
 }

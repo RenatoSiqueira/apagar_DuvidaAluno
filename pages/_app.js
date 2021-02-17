@@ -1,7 +1,6 @@
 import React from "react";
 import App from "next/app";
-// import '../css/tailwindcss.css'
-import "tailwindcss/tailwind.css";
+import "../css/tailwindcss.css";
 
 class MyApp extends App {
   render() {
