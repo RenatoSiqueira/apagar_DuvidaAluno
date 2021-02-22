@@ -9,7 +9,9 @@ class MyApp extends App {
       <React.Fragment>
         <style jsx global>
           {`
-            @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap");
+            * {
+              font-family: "Inter", sans-serif;
+            }
           `}
         </style>
         <Component {...pageProps} />
